@@ -20,14 +20,15 @@ jobs:
           path: state
           key: state
       - uses: actions/checkout@v3
-      - run: |
-          pip install virtualenv
-          virtualenv .venv
-          .venv/bin/pip install feedparser
+      - run: pip install virtualenv
+      - run: virtualenv .venv
+      - run: .venv/bin/pip install feedparser
+      - name: Install rawdog
+        run: |
           cd rawdog-2.23
           ../.venv/bin/python setup.py install
           cd -
-          .venv/bin/rawdog --dir . --no-locking --update --write
+      - run: .venv/bin/rawdog --dir . --no-locking --update --write
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
       - name: Upload artifact
