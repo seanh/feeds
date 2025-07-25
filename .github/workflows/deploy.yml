@@ -19,11 +19,12 @@ jobs:
           ../.venv/bin/python setup.py install
           cd -
           .venv/bin/rawdog --dir . --no-locking --update --write
-  Deploy:
-    uses: seanh/ghp-static/.github/workflows/static.yml@main
-    with:
-      path: "site/"
-    permissions:
-      contents: read
-      pages: write
-      id-token: write
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
