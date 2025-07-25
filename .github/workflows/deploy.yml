@@ -13,6 +13,11 @@ jobs:
     container:
       image: python:2.7.18-buster
     steps:
+      - name: Cache the state file
+        uses: actions/cache@v3
+        with:
+          path: state
+          key: state
       - uses: actions/checkout@v3
       - run: |
           pip install virtualenv
