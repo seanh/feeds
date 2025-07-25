@@ -13,7 +13,8 @@ jobs:
       - run: |
           pip install virtualenv
           virtualenv .venv
-          .venv/bin/pip install feedparser pytidylib
+          .venv/bin/pip install feedparser
+          apt install libtidy-dev
           cd rawdog-2.23
           ../.venv/bin/python setup.py install
           cd -
