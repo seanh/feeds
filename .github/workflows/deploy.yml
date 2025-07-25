@@ -1,10 +1,11 @@
-name: Deploy
+name: Build & Deploy
 on:
   schedule:
   - cron: '0 6 * * *'
   workflow_dispatch:
 jobs:
-  Deploy:
+  Build_and_Deploy:
+    name: Build & Deploy
     runs-on: ubuntu-latest
     permissions:
       contents: read
