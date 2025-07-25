@@ -22,7 +22,7 @@ ignoretimeouts false
 showtracebacks true
 verbose true
 blocklevelhtml true
-tidyhtml true
+tidyhtml false
 sortbyfeeddate false
 useids true
 hideduplicates id
