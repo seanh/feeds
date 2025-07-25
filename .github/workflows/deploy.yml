@@ -6,11 +6,10 @@ on:
 jobs:
   Build:
     runs-on: ubuntu-latest
+      container:
+        image: python:2.7.18-buster
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v5
-        with:
-          python-version: '2.17'
       - run: |
           pip install virtualenv
           virtualenv .venv
