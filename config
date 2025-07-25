@@ -1,0 +1,146 @@
+plugindirs plugins
+splitstate false
+maxarticles 0
+maxage 1w
+expireage 1w
+keepmin 20
+currentonly false
+daysections true
+dayformat %A, %d %B
+timesections false
+datetimeformat %H:%M, %A, %d %B
+pagetemplate pagetemplate
+itemtemplate itemtemplate
+feedlisttemplate feedlisttemplate
+feeditemtemplate feeditemtemplate
+outputfile site/index.html
+userefresh false
+showfeeds true
+numthreads 20
+timeout 30s
+ignoretimeouts false
+showtracebacks true
+verbose true
+blocklevelhtml true
+tidyhtml true
+sortbyfeeddate false
+useids true
+hideduplicates id
+newfeedperiod 1s
+changeconfig false
+feed 1s https://brandur.org/articles.atom
+feed 1s https://brandur.org/atoms.atom
+feed 1s https://www.benkuhn.net/index.xml
+feed 1s https://www.crunchydata.com/blog/rss.xml
+feed 1s https://blog.glyph.im/feeds/all.atom.xml
+feed 1s https://fishshell.com/blog/feed.xml
+feed 1s https://brandur.org/fragments.atom
+feed 1s https://community.hachyderm.io/blog/index.xml
+feed 1s https://hynek.me/index.xml
+feed 1s https://judoscale.com/rss.xml
+feed 1s https://jvns.ca/til/atom.xml
+feed 1s https://libera.chat/atom.xml
+feed 1s https://mitchellh.com/feed.xml
+feed 1s https://pivot-to-ai.com/feed/
+feed 1s https://brandur.org/sequences.atom
+feed 1s https://treyhunner.com/atom.xml
+feed 1s http://vimcasts.org/feeds/ogg.rss
+feed 1s https://www.seanh.cc/feed.xml
+feed 1s https://gist.github.com/seanh.atom
+feed 1s http://feeds.pinboard.in/rss/u:seanh
+feed 1s https://feeds.feedburner.com/adamandjoefansite
+feed 1s https://www.youtube.com/feeds/videos.xml?channel_id=UCnyTgN15Qhql3S-ItuMieDw
+feed 1s https://blog.sanctum.geek.nz/feed/
+feed 1s https://asphalteden.livejournal.com/data/rss/
+feed 1s https://www.barbarianmeetscoding.com/atom.xml
+feed 1s https://www.barbarianmeetscoding.com/newsletter.xml
+feed 1s https://calpaterson.com/calpaterson.rss
+feed 1s https://feeds.feedburner.com/codinghorror
+feed 1s https://www.youtube.com/feeds/videos.xml?channel_id=UCAC4Ux3HvGxkBc2Q0sM3bKg
+feed 1s https://feeds.feedburner.com/PyMOTW
+feed 1s https://www.drneilsgarden.co.uk/category/gardeners-blog/feed/
+feed 1s https://spacepub.space/feeds/videos.xml?videoChannelId=2
+feed 1s https://drewdevault.com/blog/index.xml
+feed 1s https://www.executeprogram.com/blog/feed.rss
+feed 1s https://moderntantra.blogspot.com/feeds/posts/default
+feed 1s https://feedbin.com/blog/atom.xml
+feed 1s https://blogs.gnome.org/aday/feed/?_=8022
+feed 1s https://feaneron.com/feed/
+feed 1s https://github.blog/changelog/all.atom
+feed 1s https://blogs.gnome.org/shell-dev/feed/
+feed 1s https://blog.gtk.org/feed/
+feed 1s https://hypercritical.co/feeds/main
+feed 1s https://www.iain-banks.net/category/iainbanks-posts/feed/
+feed 1s https://idlewords.com/index.xml
+feed 1s https://inference-review.com/feeds/rss
+feed 1s https://jekyllrb.com/feed.xml
+feed 1s https://www.joelonsoftware.com/feed/
+feed 1s https://jvns.ca/atom.xml
+feed 1s https://justinmayer.com/feeds/all.atom.xml
+feed 1s https://developer.mozilla.org/en-US/blog/rss.xml
+feed 1s https://www.mrmoneymustache.com/feed/
+feed 1s https://www.nealstephenson.com/feed.xml
+feed 1s https://nedbatchelder.com/blog/rss.xml
+feed 1s https://neopythonic.blogspot.com/feeds/posts/default?alt=rss
+feed 1s https://feeds.feedburner.com/nvie
+feed 1s https://www.omglinux.com/feed/
+feed 1s https://feeds.feedburner.com/d0od
+feed 1s https://www.w3.org/community/openannotation/feed/
+feed 1s https://patrickwyman.substack.com/feed
+feed 1s https://feeds.feedburner.com/PythonInsider
+feed 1s https://pythonspeed.com/atom.xml
+feed 1s https://www.youtube.com/feeds/videos.xml?user=radiohead
+feed 1s https://www.youtube.com/feeds/videos.xml?user=sillycyclists
+feed 1s http://blogs.gnome.org/tbernard/feed
+feed 1s https://stratechery.com/feed/
+feed 1s https://stripe.com/blog/feed.rss
+feed 1s https://snarky.ca/rss/
+feed 1s https://python-history.blogspot.com/feeds/posts/default?alt=rss
+feed 1s https://web.hypothes.is/feed/
+feed 1s https://blog.theoldreader.com/rss
+feed 1s https://blog.pypi.org/feed_rss_created.xml
+feed 1s https://pycoders.com/feed/nsrOpxLD
+feed 1s http://us2.campaign-archive2.com/feed?u=e2e180baf855ac797ef407fc7&id=9e26887fc5
+feed 1s https://amercader.net/blog/index.xml
+feed 1s https://alejandrocelaya.blog/atom.xml
+feed 1s https://www.citationneeded.news/rss/
+feed 1s https://hazelweakly.me/rss.xml
+feed 1s https://maplestreetjam.com/blog/feed/
+feed 1s https://www.infoworld.com/author/jon-udell/index.rss
+feed 1s https://blog.jonudell.net/feed/
+feed 1s https://linkdigital.com.au/feed/
+feed 1s https://www.lyza.com/feeds/rss.rss
+feed 1s https://whiteink.com/blog/index.xml
+feed 1s https://feeds.feedburner.com/nigelbabu
+feed 1s https://feeds.feedburner.com/okfn
+feed 1s https://www.flickr.com/services/feeds/photos_public.gne?id=10239664@N00&lang=en-us&format=atom
+feed 1s https://feeds.feedburner.com/ckanproject
+feed 1s https://palletsprojects.com/blog/feed.xml
+feed 1s https://www.obeythetestinggoat.com/feeds/all.atom.xml
+feed 1s https://bluesock.org/~willkg/blog/rss.xml
+feed 1s https://blog.pragmaticengineer.com/rss/
+feed 1s https://bsky.app/profile/did:plc:pgyyjgmha7rxbexlhc6xnj7a/rss
+feed 1s https://astral.sh/blog/rss.xml
+feed 1s https://status.bitwarden.com/state_feed/feed
+feed 1s https://blog.chromium.org/feeds/posts/default
+feed 1s http://feeds.launchpad.net/deja-dup/announcements.atom
+feed 1s https://blog.brushedtype.co/rss/
+feed 1s https://draculatheme.com/changelog-rss.xml
+feed 1s https://draculatheme.com/rss.xml
+feed 1s http://feeds.launchpad.net/duplicity/announcements.atom
+feed 1s https://fastmail.blog/rss/
+feed 1s https://blog.google/products/chrome/rss/
+feed 1s https://helix-editor.com/atom.xml
+feed 1s https://inessential.com/feed.json
+feed 1s https://blog.instapaper.com/rss
+feed 1s https://netnewswire.blog/feed.json
+feed 1s https://getpelican.com/feeds/all.atom.xml
+feed 1s https://blog.pinboard.in/feed/
+feed 1s https://blog.getpocket.com/feed/
+feed 1s https://blog.readthedocs.com/archive/atom.xml
+feed 1s https://github.com/Pylons/pyramid/releases.atom
+feed 1s https://github.com/todotxt/todo.txt-cli/releases.atom
+feed 1s https://restic.net/blog/index.xml
+feed 1s https://ridiculousfish.com/blog/atom.xml
+feed 1s https://github.blog/feed/
+feed 1s https://www.youneedabudget.com/feed/?post_type=release_note
